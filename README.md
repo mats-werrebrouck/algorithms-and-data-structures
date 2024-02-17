@@ -23,7 +23,7 @@
 - [ ] Bucket Sort
 - [ ] Shell Sort
 - [ ] Gnome Sort
-- [ ] Bogosort
+- [x] Bogosort
 
 ## Data structures
 todo
