@@ -12,7 +12,7 @@
 - [ ] Ternary Search
 
 ## Sort algorithms
-- [ ] Bubble Sort
+- [x] Bubble Sort
 - [ ] Selection Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
