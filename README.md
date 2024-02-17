@@ -8,7 +8,7 @@
 - [x] Jump Search
 - [ ] Interpolation Search
 - [ ] Exponential Search
-- [ ] Fibonacci Search
+- [x] Fibonacci Search
 - [ ] Ternary Search
 
 ## Sort algorithms
