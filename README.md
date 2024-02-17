@@ -5,7 +5,7 @@
 - [x] Binary Search
 - [ ] Depth-First Search (DFS)
 - [ ] Breadth-First Search (BFS)
-- [ ] Jump Search
+- [x] Jump Search
 - [ ] Interpolation Search
 - [ ] Exponential Search
 - [ ] Fibonacci Search
