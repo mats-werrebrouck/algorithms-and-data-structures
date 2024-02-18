@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int jump_search(const std::vector<int>& arr, int target) {
+int jump_search(const vector<int>& arr, int target) {
     int n = arr.size();
     // Determine size of jump
     int jump_size = sqrt(n);

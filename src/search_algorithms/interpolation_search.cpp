@@ -3,7 +3,7 @@
 using namespace std;
 
 // Improvment over binary search where the values in a sorted array are uniformly distributed
-int interpolation_search(vector<int>& arr, int target) {
+int interpolation_search(const vector<int>& arr, int target) {
     int low = 0;
     int high = arr.size() - 1;
 

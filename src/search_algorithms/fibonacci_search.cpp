@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int fibonacci_search(const std::vector<int>& arr, int target) {
+int fibonacci_search(const vector<int>& arr, int target) {
     int n = arr.size();
 
     // Find the smallest fibonacci number that is greater than or equal to the size of the array

@@ -7,7 +7,7 @@
 - [ ] Breadth-First Search (BFS)
 - [x] Jump Search
 - [x] Interpolation Search
-- [ ] Exponential Search
+- [x] Exponential Search
 - [x] Fibonacci Search
 - [ ] Ternary Search
 

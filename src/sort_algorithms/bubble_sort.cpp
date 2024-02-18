@@ -1,5 +1,7 @@
 #include <vector>
 
+using namespace std;
+
 void bubble_sort(std::vector<int>& arr) {
     int n = arr.size();
     bool swapped;
@@ -8,7 +10,7 @@ void bubble_sort(std::vector<int>& arr) {
         swapped = false;
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
-                std::swap(arr[j], arr[j + 1]);
+                swap(arr[j], arr[j + 1]);
                 swapped = true;
             }
         }
