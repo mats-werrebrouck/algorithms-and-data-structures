@@ -4,7 +4,7 @@
 - [x] Sequential Search
 - [x] Binary Search
 - [ ] Depth-First Search (DFS)
-- [ ] Breadth-First Search (BFS)
+- [x] Breadth-First Search (BFS)
 - [x] Jump Search
 - [x] Interpolation Search
 - [x] Exponential Search
@@ -24,6 +24,9 @@
 - [ ] Shell Sort
 - [ ] Gnome Sort
 - [x] Bogosort
+
+## Graphs
+todo
 
 ## Data structures
 todo
