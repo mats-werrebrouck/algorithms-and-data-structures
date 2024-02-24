@@ -9,7 +9,7 @@
 - [x] Interpolation Search
 - [x] Exponential Search
 - [x] Fibonacci Search
-- [ ] Ternary Search
+- [x] Ternary Search
 
 ## Sort algorithms
 - [x] Bubble Sort
