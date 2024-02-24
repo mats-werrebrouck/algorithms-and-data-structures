@@ -13,8 +13,8 @@
 
 ## Sort algorithms
 - [x] Bubble Sort
-- [ ] Selection Sort
-- [ ] Insertion Sort
+- [x] Selection Sort
+- [x] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
