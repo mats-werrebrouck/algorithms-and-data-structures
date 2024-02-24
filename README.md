@@ -3,7 +3,7 @@
 ## Search algorithms
 - [x] Sequential Search
 - [x] Binary Search
-- [ ] Depth-First Search (DFS)
+- [x] Depth-First Search (DFS)
 - [x] Breadth-First Search (BFS)
 - [x] Jump Search
 - [x] Interpolation Search
