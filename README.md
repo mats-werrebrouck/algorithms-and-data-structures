@@ -22,7 +22,7 @@
 - [ ] Counting Sort
 - [ ] Bucket Sort
 - [ ] Shell Sort
-- [ ] Gnome Sort
+- [x] Gnome Sort
 - [x] Bogosort
 
 ## Graphs
