@@ -19,7 +19,7 @@
 - [ ] Quick Sort
 - [ ] Heap Sort
 - [ ] Radix Sort
-- [ ] Counting Sort
+- [x] Counting Sort
 - [ ] Bucket Sort
 - [ ] Shell Sort
 - [x] Gnome Sort
