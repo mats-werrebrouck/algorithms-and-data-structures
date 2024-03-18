@@ -1,15 +1,15 @@
 # algorithms-and-data-structures
 
 ## Data structures
-- [ ] Array
-- [ ] Linked List (Single linked list, double linked list)
-- [ ] Stack
-- [ ] Queue
-- [ ] Binary tree / Binary Search Tree
-- [ ] Heap (Min, Max)
-- [ ] Hash table (chaining & probing collision handling)
+- [x] Array
+- [x] Linked List (Single Linked List, Double Linked List)
+- [x] Stack
+- [x] Queue / Priority Queue
+- [ ] Binary Tree / Binary Search Tree
+- [ ] Heap (Min Heap, Max Heap)
+- [ ] Hash Table (chaining & probing collision handling)
 - [ ] Graph
-- [ ] Red-black tree
+- [ ] Red-Black Tree
 
 ## Search algorithms
 - [x] Sequential Search
