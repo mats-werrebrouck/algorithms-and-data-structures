@@ -20,7 +20,7 @@
 - [x] Heap Sort
 - [x] Radix Sort
 - [x] Counting Sort
-- [ ] Bucket Sort
+- [x] Bucket Sort
 - [ ] Shell Sort
 - [x] Gnome Sort
 - [x] Bogosort
