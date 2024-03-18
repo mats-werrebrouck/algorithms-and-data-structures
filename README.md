@@ -21,7 +21,7 @@
 - [x] Radix Sort
 - [x] Counting Sort
 - [x] Bucket Sort
-- [ ] Shell Sort
+- [x] Shell Sort
 - [x] Gnome Sort
 - [x] Bogosort
 
