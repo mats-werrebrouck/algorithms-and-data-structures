@@ -18,7 +18,7 @@
 - [x] Merge Sort
 - [x] Quick Sort
 - [x] Heap Sort
-- [ ] Radix Sort
+- [x] Radix Sort
 - [x] Counting Sort
 - [ ] Bucket Sort
 - [ ] Shell Sort
