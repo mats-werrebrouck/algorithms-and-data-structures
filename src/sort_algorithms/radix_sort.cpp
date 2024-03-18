@@ -25,6 +25,8 @@ void counting_sort(vector<int>& arr, int exp) {
     std::copy(output.begin(), output.end(), arr.begin());
 }
 
+// Time complexity: O(d * (n + k)) where d is the number of digits in the largest number, n is the number of elements in the input array and k is the base of the number system
+// Space complexity: O(n + k)
 void lsd_radix_sort(vector<int>& arr) {
     int max = *max_element(arr.begin(), arr.end());
 
@@ -33,6 +35,8 @@ void lsd_radix_sort(vector<int>& arr) {
     }
 }
 
+// Time complexity: O(n log(base m) n) where n is the number of elements in the input array and m is the base of the number system
+// Space complexity: O(n + m)
 void msd_radix_sort(vector<int>& arr) {
     int max = *max_element(arr.begin(), arr.end());
 

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(n^2)
+// Space complexity: O(1)
 void bubble_sort(std::vector<int>& arr) {
     int n = arr.size();
     bool swapped;

@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// Time complexity: O(log n)
+// Space complexity: O(log n) because of the recursive call stack, if we used iterative binary search then the space complexity would be O(1)
 int exponential_search(const vector<int>& arr, int target) {
     int n = arr.size();
 

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(n log n)
+// Space complexity: O(n)
 void merge_sort(vector<int>& arr) {
     // Base case when the array has 0 or 1 elements, it is already sorted
     if (arr.size() <= 1) return;

@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// Time complexity: 
+// Best case: O(n log n)
+// Worst case: O(n^2)
+// Space complexity: O(1)
 void shell_sort(vector<int>& arr) {
     int n = arr.size();
 

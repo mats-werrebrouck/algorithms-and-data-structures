@@ -1,6 +1,8 @@
 #include <vector>
 
 using namespace std;
+// Time complexity: O(log log n) on average and O(n) in worst case
+// Space complexity: O(1)
 
 // Improvment over binary search where the values in a sorted array are uniformly distributed
 int interpolation_search(const vector<int>& arr, int target) {

@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(log n)
+// Space complexity: O(1)
 int binary_search(const vector<int>& arr, int target) {
     int left = 0;
     int right = arr.size() - 1;
@@ -23,6 +25,11 @@ int binary_search(const vector<int>& arr, int target) {
     return -1;
 }
 
+// Time complexity:
+//  - Best: O(1) (if the target is the middle element)
+//  - Average: O(log n)
+//  - Worst: O(log n)
+// Space complexity: O(1), if the recursive call stack is not considered otherwise O(log n)
 int binary_searchv2(const vector<int>& arr, int l, int r, int target) {
     if (r >= l) {
         int mid = l + (r - l) / 2;

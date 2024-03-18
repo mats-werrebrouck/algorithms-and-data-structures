@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(2 log(base 3) n)
+// Space complexity: O(1)
 int ternary_search(const vector<int>& arr, int target) {
     int left = 0;
     int right = arr.size() - 1;
@@ -31,6 +33,8 @@ int ternary_search(const vector<int>& arr, int target) {
     return -1;
 }
 
+// Time complexity: O(2 log(base 3) n)
+// Space complexity: O(log(base 3) n) because of the recursive call stack
 int ternary_searchv2(const vector<int>& arr, int l, int r, int target) {
     if (r >= l) {
         int mid1 = l + (r - l) / 3;

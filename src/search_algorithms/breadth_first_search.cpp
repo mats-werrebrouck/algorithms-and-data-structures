@@ -42,6 +42,8 @@ node* traverse_level(node* current, int target, int level) {
     return nullptr;
 }
 
+// Time complexity: O(n)
+// Space complexity: O(1), if the recursion stack is not considered otherwise O(n)
 node* breadth_first_search(node* root, int target) {
     if (root == nullptr) {
         return nullptr;
@@ -59,6 +61,8 @@ node* breadth_first_search(node* root, int target) {
     return nullptr;
 }
 
+// Time complexity: O(n)
+// Space complexity: O(n)
 node* breadth_first_searchv2(node* root, int target) {
     if (root == nullptr) {
         return nullptr;

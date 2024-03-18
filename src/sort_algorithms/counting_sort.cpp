@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// Time complexity: O(n + m) where n is the number of elements in the input array and m is the range of the count array
+// Space complexity: O(n + m)
 void counting_sort(vector<int>& arr) {
     int max = *max_element(arr.begin(), arr.end());
 

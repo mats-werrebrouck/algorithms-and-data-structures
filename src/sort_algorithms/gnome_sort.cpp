@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(n^2)
+// Space complexity: O(1)
 void gnome_sort(vector<int>& arr) {
     int n = arr.size();
     int index = 0;

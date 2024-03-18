@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// Time complexity: O(log n)
+// Space complexity: O(1)
 int fibonacci_search(const vector<int>& arr, int target) {
     int n = arr.size();
 

@@ -8,6 +8,8 @@ struct node {
     node(int value) : value(value), left(nullptr), right(nullptr) {}
 };
 
+// Time complexity: O(n)
+// Space complexity: O(log n)
 node* depth_first_search(node* root, int target) {
     if (root == nullptr) {
         return nullptr;

@@ -21,6 +21,11 @@ void random_shuffle(vector<int>::iterator begin, vector<int>::iterator end) {
     }
 }
 
+// Time complexity: 
+// Worst case: O(infinity)
+// Average case: O(n * n!)
+// Best case: O(n)
+// Space complexity: O(1)
 void bogo_sort(vector<int>& arr) {
     while (!is_sorted(arr.begin(), arr.end())) {
         random_shuffle(arr.begin(), arr.end());

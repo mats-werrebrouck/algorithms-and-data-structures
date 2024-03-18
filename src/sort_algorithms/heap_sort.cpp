@@ -21,6 +21,8 @@ void heapify(vector<int>& arr, int n, int i) {
     }
 }
 
+// Time complexity: O(n log n)
+// Space complexity: O(1)
 void heap_sort(vector<int>& arr) {
     int n = arr.size();
 

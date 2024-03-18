@@ -72,6 +72,9 @@ void quick_sort(vector<int>& arr, int low, int high) {
     }
 }
 
+// Time complexity: O(n log n)
+// Space complexity: O(log n)
+
 // Wrapper function to call quick_sort with the correct parameters
 void quick_sort(vector<int>& arr) {
     quick_sort(arr, 0, arr.size() - 1);
