@@ -11,12 +11,12 @@ TEST_CASE("Depth First Search") {
     root->right->right = new node(7);
 
     SECTION("Searching for a node that exists") {
-        node* result = depth_first_search(root, 5);
+        node* result = depthFirstSearch(root, 5);
         REQUIRE(result->value == 5);
     }
 
     SECTION("Searching for a node that does not exist") {
-        node* result = depth_first_search(root, 8);
+        node* result = depthFirstSearch(root, 8);
         REQUIRE(result == nullptr);
     }
 }
@@ -25,6 +25,6 @@ TEST_CASE("Depth First Search with empty tree") {
     node* root = nullptr;
 
     SECTION("Node does not exist") {
-        REQUIRE(depth_first_search(root, 5) == nullptr);
+        REQUIRE(depthFirstSearch(root, 5) == nullptr);
     }
 }

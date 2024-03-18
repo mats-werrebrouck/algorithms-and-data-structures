@@ -4,7 +4,7 @@ using namespace std;
 
 // Time complexity: O(log n)
 // Space complexity: O(1)
-int binary_search(const vector<int>& arr, int target) {
+int binarySearch(const vector<int>& arr, int target) {
     int left = 0;
     int right = arr.size() - 1;
 
@@ -30,7 +30,7 @@ int binary_search(const vector<int>& arr, int target) {
 //  - Average: O(log n)
 //  - Worst: O(log n)
 // Space complexity: O(1), if the recursive call stack is not considered otherwise O(log n)
-int binary_searchv2(const vector<int>& arr, int l, int r, int target) {
+int binarySearchv2(const vector<int>& arr, int l, int r, int target) {
     if (r >= l) {
         int mid = l + (r - l) / 2;
 
@@ -39,10 +39,10 @@ int binary_searchv2(const vector<int>& arr, int l, int r, int target) {
         }
 
         if (arr[mid] > target) {
-            return binary_searchv2(arr, l, mid - 1, target);
+            return binarySearchv2(arr, l, mid - 1, target);
         }
 
-        return binary_searchv2(arr, mid + 1, r, target);
+        return binarySearchv2(arr, mid + 1, r, target);
     }
 
     return -1;

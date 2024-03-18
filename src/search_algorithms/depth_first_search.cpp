@@ -10,7 +10,7 @@ struct node {
 
 // Time complexity: O(n)
 // Space complexity: O(log n)
-node* depth_first_search(node* root, int target) {
+node* depthFirstSearch(node* root, int target) {
     if (root == nullptr) {
         return nullptr;
     }
@@ -19,12 +19,12 @@ node* depth_first_search(node* root, int target) {
         return root;
     }
 
-    node* leftResult = depth_first_search(root->left, target);
+    node* leftResult = depthFirstSearch(root->left, target);
     if (leftResult) {
         return leftResult;
     }
 
-    node* rightResult = depth_first_search(root->right, target);
+    node* rightResult = depthFirstSearch(root->right, target);
     if (rightResult) {
         return rightResult;
     }

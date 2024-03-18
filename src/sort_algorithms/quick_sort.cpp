@@ -3,7 +3,7 @@
 using namespace std;
 
 // Function to find the median of three elements in the array
-int median_of_three(vector<int>& arr, int low, int high) {
+int medianOfThree(vector<int>& arr, int low, int high) {
     int mid = low + (high - low) / 2;
     if (arr[low] > arr[mid]) {
         swap(arr[low], arr[mid]);
@@ -59,23 +59,23 @@ int partiton(vector<int>& arr, int low, int high) {
     // return i + 1;
 }
 
-void quick_sort(vector<int>& arr, int low, int high) {
+void quickSort(vector<int>& arr, int low, int high) {
     if (low < high) {
-        int pivotIdx = median_of_three(arr, low, high);
+        int pivotIdx = medianOfThree(arr, low, high);
         // Move the pivot to the end of the array
         swap(arr[pivotIdx], arr[high]);
         // Partition the array and get the index of the pivot
         int partitionIdx = partiton(arr, low, high);
         // Recursively sort the left and right halves of the array
-        quick_sort(arr, low, partitionIdx - 1);
-        quick_sort(arr, partitionIdx + 1, high);
+        quickSort(arr, low, partitionIdx - 1);
+        quickSort(arr, partitionIdx + 1, high);
     }
 }
 
 // Time complexity: O(n log n)
 // Space complexity: O(log n)
 
-// Wrapper function to call quick_sort with the correct parameters
-void quick_sort(vector<int>& arr) {
-    quick_sort(arr, 0, arr.size() - 1);
+// Wrapper function to call quickSort with the correct parameters
+void quickSort(vector<int>& arr) {
+    quickSort(arr, 0, arr.size() - 1);
 }

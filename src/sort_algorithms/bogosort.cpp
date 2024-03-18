@@ -4,7 +4,7 @@
 
 using namespace std;
 
-bool is_sorted(vector<int>::iterator begin, vector<int>::iterator end) {
+bool isSorted(vector<int>::iterator begin, vector<int>::iterator end) {
     for (auto it = begin; it != end - 1; it++) {
         if (*it > *(it + 1)) {
             return false;
@@ -13,7 +13,7 @@ bool is_sorted(vector<int>::iterator begin, vector<int>::iterator end) {
     return true;
 }
 
-void random_shuffle(vector<int>::iterator begin, vector<int>::iterator end) {
+void randomShuffle(vector<int>::iterator begin, vector<int>::iterator end) {
     srand(time(nullptr));
 
     for (auto it = begin; it != end; it++) {
@@ -26,8 +26,8 @@ void random_shuffle(vector<int>::iterator begin, vector<int>::iterator end) {
 // Average case: O(n * n!)
 // Best case: O(n)
 // Space complexity: O(1)
-void bogo_sort(vector<int>& arr) {
-    while (!is_sorted(arr.begin(), arr.end())) {
-        random_shuffle(arr.begin(), arr.end());
+void bogoSort(vector<int>& arr) {
+    while (!isSorted(arr.begin(), arr.end())) {
+        randomShuffle(arr.begin(), arr.end());
     }
 }

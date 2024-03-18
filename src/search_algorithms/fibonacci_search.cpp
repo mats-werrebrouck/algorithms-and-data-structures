@@ -4,7 +4,7 @@ using namespace std;
 
 // Time complexity: O(log n)
 // Space complexity: O(1)
-int fibonacci_search(const vector<int>& arr, int target) {
+int fibonacciSearch(const vector<int>& arr, int target) {
     int n = arr.size();
 
     // Find the smallest fibonacci number that is greater than or equal to the size of the array

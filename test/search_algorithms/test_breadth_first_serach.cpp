@@ -11,11 +11,11 @@ TEST_CASE("Naive Breadth First Search") {
     root->right->right = new node(7);
 
     SECTION("Node exists") {
-        REQUIRE(breadth_first_search(root, 5)->value == 5);
+        REQUIRE(breadthFirstSearch(root, 5)->value == 5);
     }
 
     SECTION("Node does not exist") {
-        REQUIRE(breadth_first_search(root, 8) == nullptr);
+        REQUIRE(breadthFirstSearch(root, 8) == nullptr);
     }
 }
 
@@ -23,7 +23,7 @@ TEST_CASE("Naive Breadth First Search with empty tree") {
     node* root = nullptr;
 
     SECTION("Node does not exist") {
-        REQUIRE(breadth_first_search(root, 5) == nullptr);
+        REQUIRE(breadthFirstSearch(root, 5) == nullptr);
     }
 }
 
@@ -37,11 +37,11 @@ TEST_CASE("Breadth First Search") {
     root->right->right = new node(7);
 
     SECTION("Node exists") {
-        REQUIRE(breadth_first_searchv2(root, 5)->value == 5);
+        REQUIRE(breadthFirstSearchv2(root, 5)->value == 5);
     }
 
     SECTION("Node does not exist") {
-        REQUIRE(breadth_first_searchv2(root, 8) == nullptr);
+        REQUIRE(breadthFirstSearchv2(root, 8) == nullptr);
     }
 }
 
@@ -49,6 +49,6 @@ TEST_CASE("Breadth First Search with empty tree") {
     node* root = nullptr;
 
     SECTION("Node does not exist") {
-        REQUIRE(breadth_first_searchv2(root, 5) == nullptr);
+        REQUIRE(breadthFirstSearchv2(root, 5) == nullptr);
     }
 }

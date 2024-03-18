@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void stack_demo() {
+void stackDemo() {
     stack<int> s;
     s.push(1);
     s.push(2);
@@ -20,6 +20,6 @@ void stack_demo() {
 }
 
 int main() {
-    stack_demo();
+    stackDemo();
     return 0;
 }

@@ -3,6 +3,6 @@
 
 TEST_CASE("Bubble Sort") {
     std::vector<int> arr = {5, 2, 3, 1, 4};
-    bubble_sort(arr);
+    bubbleSort(arr);
     REQUIRE(arr == std::vector<int>({1, 2, 3, 4, 5}));
 }

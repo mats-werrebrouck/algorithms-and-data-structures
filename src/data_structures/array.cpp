@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void array_demo() {
+void arrayDemo() {
     int arr[5] = {1, 2, 3, 4, 5};
     cout << "Array elements: ";
     for (int i = 0; i < 5; i++) {
@@ -12,6 +12,6 @@ void array_demo() {
 }
 
 int main() {
-    array_demo();
+    arrayDemo();
     return 0;
 }

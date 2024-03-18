@@ -10,6 +10,7 @@
 - [ ] Hash Table (chaining & probing collision handling)
 - [ ] Graph
 - [ ] Red-Black Tree
+- [ ] Skip List
 
 ## Search algorithms
 - [x] Sequential Search

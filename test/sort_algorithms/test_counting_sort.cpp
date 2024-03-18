@@ -6,7 +6,7 @@ TEST_CASE("Counting Sort") {
         vector<int> arr = {4, 2, 1, 3, 2, 4, 1};
         vector<int> expected = {1, 1, 2, 2, 3, 4, 4};
 
-        counting_sort(arr);
+        countingSort(arr);
 
         REQUIRE(arr == expected);
     }

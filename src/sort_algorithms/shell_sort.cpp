@@ -6,7 +6,7 @@ using namespace std;
 // Best case: O(n log n)
 // Worst case: O(n^2)
 // Space complexity: O(1)
-void shell_sort(vector<int>& arr) {
+void shellSort(vector<int>& arr) {
     int n = arr.size();
 
     // Start with a big gap, then reduce the gap
@@ -26,7 +26,7 @@ void shell_sort(vector<int>& arr) {
     }
 }
 
-void shell_sort_sedgewick(vector<int>& arr) {
+void shellSortSedgewick(vector<int>& arr) {
     int n = arr.size();
 
     // Sedgewick's increments

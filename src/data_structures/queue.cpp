@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void queue_demo() {
+void queueDemo() {
     queue<int> q;
     q.push(3);
     q.push(5);
@@ -19,7 +19,7 @@ void queue_demo() {
     cout << endl;
 }
 
-void priority_queue_demo() {
+void priorityQueueDemo() {
     priority_queue<int> pq;
     pq.push(3);
     pq.push(5);
@@ -36,7 +36,7 @@ void priority_queue_demo() {
 }
 
 int main() {
-    queue_demo();
-    priority_queue_demo();
+    queueDemo();
+    priorityQueueDemo();
     return 0;
 }

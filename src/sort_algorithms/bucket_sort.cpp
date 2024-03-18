@@ -5,7 +5,7 @@ using namespace std;
 
 // Time complexity: O(n^2)
 // Space complexity: O(n + k), where k is the number of buckets
-void bucket_sort(vector<int>& arr) {
+void bucketSort(vector<int>& arr) {
     int n = arr.size();
 
     int max_val = *max_element(arr.begin(), arr.end());

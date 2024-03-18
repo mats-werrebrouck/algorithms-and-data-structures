@@ -17,7 +17,7 @@ struct DNode {
     DNode(T data) : data(data), next(nullptr), prev(nullptr) {}
 };
 
-void single_linked_list_demo() {
+void singleLinkedListDemo() {
     Node<int>* head = new Node<int>(1);
     head->next = new Node<int>(2);
     head->next->next = new Node<int>(3);
@@ -40,7 +40,7 @@ void single_linked_list_demo() {
     }
 }
 
-void double_linked_list_demo() {
+void doubleLinkedListDemo() {
     DNode<int>* head = new DNode<int>(1);
     head->next = new DNode<int>(2);
     head->next->prev = head;
@@ -68,7 +68,7 @@ void double_linked_list_demo() {
 }
 
 int main() {
-    single_linked_list_demo();
-    double_linked_list_demo();
+    singleLinkedListDemo();
+    doubleLinkedListDemo();
     return 0;
 }

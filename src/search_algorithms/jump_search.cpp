@@ -5,7 +5,7 @@ using namespace std;
 
 // Time complexity: O(√n)
 // Space complexity: O(1)
-int jump_search(const vector<int>& arr, int target) {
+int jumpSearch(const vector<int>& arr, int target) {
     int n = arr.size();
     // Determine size of jump
     int jump_size = sqrt(n);

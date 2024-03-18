@@ -18,7 +18,7 @@ int getHeight(node* root) {
     return 1 + max(getHeight(root->left), getHeight(root->right));
 }
 
-node* traverse_level(node* current, int target, int level) {
+node* traverseLevel(node* current, int target, int level) {
     if (current == nullptr) {
         return nullptr;
     }
@@ -28,12 +28,12 @@ node* traverse_level(node* current, int target, int level) {
             return current;
         }
     } else if (level > 1) {
-        node* leftResult = traverse_level(current->left, target, level - 1);
+        node* leftResult = traverseLevel(current->left, target, level - 1);
         if (leftResult) {
             return leftResult;
         }
 
-        node* rightResult = traverse_level(current->right, target, level - 1);
+        node* rightResult = traverseLevel(current->right, target, level - 1);
         if (rightResult) {
             return rightResult;
         }
@@ -44,7 +44,7 @@ node* traverse_level(node* current, int target, int level) {
 
 // Time complexity: O(n)
 // Space complexity: O(1), if the recursion stack is not considered otherwise O(n)
-node* breadth_first_search(node* root, int target) {
+node* breadthFirstSearch(node* root, int target) {
     if (root == nullptr) {
         return nullptr;
     }
@@ -52,7 +52,7 @@ node* breadth_first_search(node* root, int target) {
     int height = getHeight(root);
 
     for (int i = 1; i <= height; i++) {
-        node* result = traverse_level(root, target, i);
+        node* result = traverseLevel(root, target, i);
         if (result) {
             return result;
         }
@@ -63,7 +63,7 @@ node* breadth_first_search(node* root, int target) {
 
 // Time complexity: O(n)
 // Space complexity: O(n)
-node* breadth_first_searchv2(node* root, int target) {
+node* breadthFirstSearchv2(node* root, int target) {
     if (root == nullptr) {
         return nullptr;
     }

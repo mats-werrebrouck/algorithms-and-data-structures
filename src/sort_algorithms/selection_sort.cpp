@@ -4,7 +4,7 @@ using namespace std;
 
 // Time complexity: O(n^2)
 // Space complexity: O(1)
-void selection_sort(std::vector<int>& arr) {
+void selectionSort(std::vector<int>& arr) {
     for (int i = 0; i < arr.size() - 1; i++) {
         int min_index = i;
         for (int j = i + 1; j < arr.size(); j++) {
