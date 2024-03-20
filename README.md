@@ -8,7 +8,7 @@
 - [x] Binary Search Tree
 - [x] Min Heap / Max Heap
 - [x] Hash Table (chaining & probing collision handling)
-- [ ] Graph
+- [x] Graph
 - [ ] Red-Black Tree
 - [ ] Skip List
 
