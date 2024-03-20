@@ -38,4 +38,6 @@
 - [x] Bogosort
 
 ## Graphs
-todo
+- [ ] BFS
+- [ ] DFS
+- [ ] Dijkstra
