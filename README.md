@@ -5,7 +5,7 @@
 - [x] Linked List (Single Linked List, Double Linked List)
 - [x] Stack
 - [x] Queue / Priority Queue
-- [ ] Binary Tree / Binary Search Tree
+- [x] Binary Search Tree
 - [ ] Heap (Min Heap, Max Heap)
 - [ ] Hash Table (chaining & probing collision handling)
 - [ ] Graph
