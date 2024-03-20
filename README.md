@@ -6,7 +6,7 @@
 - [x] Stack
 - [x] Queue / Priority Queue
 - [x] Binary Search Tree
-- [ ] Heap (Min Heap, Max Heap)
+- [x] Min Heap / Max Heap
 - [ ] Hash Table (chaining & probing collision handling)
 - [ ] Graph
 - [ ] Red-Black Tree

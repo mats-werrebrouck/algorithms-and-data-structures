@@ -121,14 +121,14 @@ int main() {
     bst.insert(0);
     bst.insert(10);
 
-    std::cout << "Search for 5: " << (bst.search(5) ? "Found" : "Not found") << std::endl;
-    std::cout << "Search for 9: " << (bst.search(9) ? "Found" : "Not found") << std::endl;
+    cout << "Search for 5: " << (bst.search(5) ? "Found" : "Not found") << endl;
+    cout << "Search for 9: " << (bst.search(9) ? "Found" : "Not found") << endl;
     
     bst.remove(3);
     bst.remove(7);
 
-    std::cout << "Search for 3: " << (bst.search(3) ? "Found" : "Not found") << std::endl;
-    std::cout << "Search for 7: " << (bst.search(7) ? "Found" : "Not found") << std::endl;
+    cout << "Search for 3: " << (bst.search(3) ? "Found" : "Not found") << endl;
+    cout << "Search for 7: " << (bst.search(7) ? "Found" : "Not found") << endl;
 
     return 0;
 }
