@@ -7,7 +7,7 @@
 - [x] Queue / Priority Queue
 - [x] Binary Search Tree
 - [x] Min Heap / Max Heap
-- [ ] Hash Table (chaining & probing collision handling)
+- [x] Hash Table (chaining & probing collision handling)
 - [ ] Graph
 - [ ] Red-Black Tree
 - [ ] Skip List
